@@ -19,32 +19,46 @@ margin:auto;
 
 header{
 background:#002b5c;
-padding:15px 0;
+padding:10px 0;
 position:sticky;
 top:0;
 z-index:1000;
+box-shadow:0 2px 10px rgba(0,0,0,.2);
 }
 
 header .container{
 display:flex;
 justify-content:space-between;
 align-items:center;
+gap:20px;
+flex-wrap:wrap;
 }
 
-.logo{
+.logo-area{
 display:flex;
 align-items:center;
-gap:10px;
+gap:15px;
+}
+
+.logo img{
+height:90px;
+width:auto;
+display:block;
+}
+
+.company-name h2{
+margin:0;
+font-size:30px;
 color:#fff;
+font-weight:700;
 }
 
-.logo h2{
-font-size:22px;
-}
-
-.logo p{
-color:#d4af37;
+.company-name p{
+margin:2px 0 0;
+font-size:18px;
 font-weight:bold;
+letter-spacing:2px;
+color:#d4af37;
 }
 
 nav ul{
