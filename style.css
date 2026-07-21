@@ -188,3 +188,8 @@ font-size:34px;
 font-size:17px;
 }
 }
+.logo img {
+    height: 60px;
+    width: auto;
+    display: block;
+}
