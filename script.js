@@ -7,3 +7,21 @@ yearSpan.textContent = new Date().getFullYear();
 }
 
 });
+// ===== Welcome Popup =====
+
+window.addEventListener("load", function () {
+    setTimeout(function () {
+        document.getElementById("welcomePopup").style.display = "flex";
+    }, 5000);
+});
+
+function closePopup() {
+    document.getElementById("welcomePopup").style.display = "none";
+}
+
+function openTawkChat() {
+    if (typeof Tawk_API !== "undefined") {
+        Tawk_API.maximize();
+    }
+    closePopup();
+}
