@@ -227,3 +227,44 @@ font-size:17px;
     width: auto;
     display: block;
 }
+/* ===== FOOTER ===== */
+
+footer{
+background:#002b5c;
+color:#fff;
+padding:60px 0 25px;
+margin-top:60px;
+}
+
+.footer-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:35px;
+}
+
+footer h3{
+color:#d4af37;
+margin-bottom:15px;
+font-size:20px;
+}
+
+footer p{
+margin:8px 0;
+line-height:1.8;
+}
+
+footer a{
+color:#fff;
+text-decoration:none;
+transition:.3s;
+}
+
+footer a:hover{
+color:#d4af37;
+}
+
+footer hr{
+border:none;
+border-top:1px solid rgba(255,255,255,.2);
+margin:30px 0;
+    }
