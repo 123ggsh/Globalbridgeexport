@@ -529,5 +529,7 @@ right:15px;
 right:15px;
 bottom:80px;
 }
-
-    }
+}
+iframe[title="chat widget"]{
+    bottom:120px !important;
+}
